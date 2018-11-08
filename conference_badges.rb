@@ -25,5 +25,4 @@ def printer(speakers)
   assign_rooms(speakers).each do |a|
     puts a
   end
-    
 end
