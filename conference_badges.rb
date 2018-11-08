@@ -13,5 +13,6 @@ def batch_badge_creator(name_array)
 end
 
 def assign_rooms(speakers)
-  
+  room_num = 0
+  speakers.collect do ||
 end
