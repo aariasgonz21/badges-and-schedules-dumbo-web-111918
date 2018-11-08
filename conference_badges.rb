@@ -14,5 +14,8 @@ end
 
 def assign_rooms(speakers)
   room_num = 0
-  speakers.collect do ||
+  speakers.collect do |i|
+    room_num += 1
+    "Hello "
+  end
 end
