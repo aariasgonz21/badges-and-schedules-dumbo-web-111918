@@ -13,9 +13,5 @@ def batch_badge_creator(name_array)
 end
 
 def assign_rooms(speakers)
-  messages = []
-  speakers.each do |i|
-    messages.push("Hello, #{speakers[i]}! You will be assigned to room #{i+1}")
-  end
-  messages
+  
 end
